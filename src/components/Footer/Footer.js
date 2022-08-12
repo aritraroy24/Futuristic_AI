@@ -7,13 +7,16 @@ import {
     FaTwitter,
     FaGithub,
     FaInstagram,
+    FaFacebook,
+    FaEye
 } from 'react-icons/fa';
 import { socialsData } from '../../data/socialsData';
+import countapi from 'countapi-js';
 
 function Footer() {
 
     const shortname = (name) => {
-        if(name.length > 10) {
+        if (name.length > 10) {
             return name
         } else {
             return name
@@ -42,6 +45,12 @@ function Footer() {
     }));
     const classes = useStyles();
 
+    function totalView() {
+        countapi.visits().then((result) => {
+            document.getElementById('visits').innerText = result.value;
+        });
+    }
+
     return (
         <div className="footer" style={{ backgroundColor: theme.secondary }}>
             <div className='socialmedia-icons'>
@@ -53,6 +62,16 @@ function Footer() {
                         className={classes.socialIcon}
                     >
                         <FaInstagram aria-label='Instagram' />
+                    </a>
+                )}
+                {socialsData.facebook && (
+                    <a
+                        href={socialsData.facebook}
+                        target='_blank'
+                        rel='noreferrer'
+                        className={classes.socialIcon}
+                    >
+                        <FaFacebook aria-label='Facebook' />
                     </a>
                 )}
                 {socialsData.twitter && (
@@ -76,13 +95,18 @@ function Footer() {
                     </a>
                 )}
             </div>
-            <p style={{color: theme.tertiary}}>
-                &copy; 2022 <a href="https://futuristicai.netlify.app">{shortname(headerData.name)}</a> 
-                <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>
+            <div className='visitsDiv'>
+                <FaEye id='viewLogo' />
+                <p onLoad={totalView()} id="visits"></p>
+            </div>
+            <div className='footer-text'>
+                <p style={{ color: theme.tertiary }}>
+                    &copy; 2022 <a href="https://futuristicai.netlify.app">{shortname(headerData.name)}</a> </p>
+                <span style={{ color: theme.primary, margin: '0 0.5rem -1rem 0.5rem' }}>
                     ❤
                 </span>
-               All rights reserved.
-            </p>
+                <p>All rights reserved. </p>
+            </div>
         </div>
     )
 }
