@@ -1,4 +1,4 @@
-import centerImg from '../assets/projects/beautiful_dark_magician_girl_full_body_mystical_ultra.png'
+import centerImg from '../assets/projects/beautiful_dark_magician_girl_full_body_mystical_ultra_detailed.png'
 
 export const headerData = {
     name: 'Futuristic AI',

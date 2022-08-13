@@ -7,10 +7,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
-
 import { ThemeContext } from '../../contexts/ThemeContext';
-
-import { socialsData } from '../../data/socialsData';
 import { contactsData } from '../../data/contactsData';
 import './Contacts.css';
 
