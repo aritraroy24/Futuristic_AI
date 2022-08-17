@@ -8,7 +8,7 @@ import RedBottleCity from '../assets/projects/red-orange_cyberpunk_themed_abando
 import MilkyWayBottle from '../assets/projects/milkyway_in_a_glass_bottle.png'
 import IndependenceDay from '../assets/projects/aeroplane_smoke_emitting_in_orange_white_and_green_tricolour.png'
 import AustralianCattle from '../assets/projects/Australian cattle dog, pink heeler, 8k, ultra detailed.jpg'
-import NordicSummer from '../assets/projects/Nordic fjord, summer morning light, aerial view, cinematic Light, Soft illumination, cinematic composition, wide-angle, atmospheric,matte painting, Trending on art station, 8k.png'
+import NordicSummer from '../assets/projects/Nordic fjord, summer morning light, aerial view, cinematic Light, Soft illumination, cinematic composition, wide-angle, atmospheric,matte painting, Trending on a.png'
 import SailToInfinite from '../assets/projects/A real photographic landscape painting with incomparable reality,Super wide,Ominous sky,Sailing boat,Wooden boat,Lotus,Huge waves,Starry night.jpg'
 import AsianMonsteraQueen from '../assets/projects/Asian, queen of the monstera, symmetrical face, symmetrical body, artgerm, flowing hair, portrait, muted colors, artstation, character concept art.jpg'
 
@@ -51,6 +51,7 @@ export const projectsData = [
         projectName: '15th Aug, 2022',
         projectDesc: '75 years celebration of Indian Independence Day (#AzadiKaAmritMahotsav) with tri-colourd smoke from airplane',
         tags: ['India', 'Celebration', 'Independence Day'],
+        demo: 'https://cutt.ly/zXuWSWX',
         demo: 'https://cutt.ly/sXk4fhb',
         image: IndependenceDay,
     },
@@ -59,6 +60,7 @@ export const projectsData = [
         projectName: 'MilkyWayBottle',
         projectDesc: 'Milky Way galaxy in a glass bottle with octane render',
         tags: ['MilkyWay', 'Space', 'Bottle'],
+        demo: 'https://cutt.ly/iXyGbzV',
         demo: 'https://cutt.ly/XXk0JTE',
         image: MilkyWayBottle,
     },
@@ -67,6 +69,7 @@ export const projectsData = [
         projectName: 'RedBottleCity',
         projectDesc: 'Red-orange cyberpunk themed abandoned City inside a glass bottle',
         tags: ['Abandoned', 'City', 'Bottle', 'Cyberpunk'],
+        demo: 'https://cutt.ly/fXyWULA',
         demo: 'https://cutt.ly/PXkNAVn',
         image: RedBottleCity
     },
@@ -75,6 +78,7 @@ export const projectsData = [
         projectName: 'GreenCity',
         projectDesc: 'Greenish-blue cyberpunk themed destroying city made of space stations',
         tags: ['Destroy', 'City', 'Cyberpunk'],
+        demo: 'https://cutt.ly/xXyrzfe',
         demo: 'https://cutt.ly/EXk1FNn',
         image: GreenCity
     },
@@ -83,6 +87,7 @@ export const projectsData = [
         projectName: 'SpaceHub',
         projectDesc: 'Ultra-detailed dark 8k space background with planet and nebula',
         tags: ['Space', 'Planet', 'Nebula'],
+        demo: 'https://cutt.ly/qZ65u3D',
         demo: 'https://cutt.ly/pXk9RLy',
         image: SpaceHub
     },
@@ -91,6 +96,7 @@ export const projectsData = [
         projectName: 'CityRush',
         projectDesc: 'Detailed earth planet ultra-realistic landscape with skyscrapers',
         tags: ['Planet', 'Landscape', 'Skyscrapers'],
+        demo: 'https://cutt.ly/iXeHcAM',
         demo: 'https://cutt.ly/CXk3Yab',
         image: CityRush
     },
@@ -99,6 +105,7 @@ export const projectsData = [
         projectName: 'WhoAmI',
         projectDesc: 'Girl\'s front face abstract portrait image with light yellow background',
         tags: ['Portrait', 'Girl'],
+        demo: 'https://cutt.ly/dXqpWqH',
         demo: 'https://cutt.ly/GXkHhto',
         image: WhoAmI
     },
@@ -107,6 +114,7 @@ export const projectsData = [
         projectName: 'CosmicPrincess',
         projectDesc: 'Realistic blonde princess in a cosmic dress with full-body tattoos, diamond necklace and earrings',
         tags: ['Blonde', 'Princess', 'Tattoos'],
+        demo: 'https://cutt.ly/rZ64SBq',
         demo: 'https://cutt.ly/7XkZ3W9',
         image: CosmicPrincess
     },
@@ -115,7 +123,8 @@ export const projectsData = [
         projectName: 'DarkMagicGirl',
         projectDesc: 'Mystical full body beautiful dark magician girl with ultra-details with nebula and space background',
         tags: ['Magician', 'Girl', 'Beautiful'],
+        demo: 'https://cutt.ly/HZ64MGv',
         demo: 'https://cutt.ly/0XkKFQv',
         image: DarkMagicGirl
     }
-]
+] 

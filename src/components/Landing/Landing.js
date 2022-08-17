@@ -112,6 +112,19 @@ function Landing() {
                                 />
                             </a>
                         )}
+                        {socialsData.github && (
+                            <a
+                                href={socialsData.github}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaGithub
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='GitHub'
+                                />
+                            </a>
+                        )}
                     </div>
                 </div>
                 <img

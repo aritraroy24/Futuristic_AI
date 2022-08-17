@@ -92,6 +92,16 @@ function Footer() {
                         <FaTwitter aria-label='Twitter' />
                     </a>
                 )}
+                {socialsData.github && (
+                    <a
+                        href={socialsData.github}
+                        target='_blank'
+                        rel='noreferrer'
+                        className={classes.socialIcon}
+                    >
+                        <FaGithub aria-label='GitHub' />
+                    </a>
+                )}
             </div>
             <div className='visitsDiv'>
                 <FaEye id='viewLogo' />
