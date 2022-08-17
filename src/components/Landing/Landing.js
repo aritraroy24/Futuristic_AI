@@ -7,6 +7,7 @@ import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
+import OpenSeaLogo from '../../assets/OpenSeaLogo.png';
 
 import {
     FaTwitter,
@@ -71,6 +72,7 @@ function Landing() {
                     style={{ backgroundColor: theme.primary }}
                 >
                     <div className='lcl--content'>
+                        <a href="https://opensea.io/futuristic_ai" target="_blank" rel="noreferrer noopener"><img id="OpenSeaLogo" src={OpenSeaLogo}></img></a>
                         {socialsData.instagram && (
                             <a
                                 href={socialsData.instagram}
@@ -107,19 +109,6 @@ function Landing() {
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='Twitter'
-                                />
-                            </a>
-                        )}
-                        {socialsData.github && (
-                            <a
-                                href={socialsData.github}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaGithub
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='GitHub'
                                 />
                             </a>
                         )}

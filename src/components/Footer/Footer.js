@@ -12,6 +12,7 @@ import {
 } from 'react-icons/fa';
 import { socialsData } from '../../data/socialsData';
 import countapi from 'countapi-js';
+import OpenSeaLogo from '../../assets/OpenSeaLogo.png'
 
 function Footer() {
 
@@ -39,7 +40,6 @@ function Footer() {
             '&:hover': {
                 transform: 'scale(1.1)',
                 color: theme.secondary,
-                backgroundColor: theme.tertiary,
             },
         }
     }));
@@ -54,6 +54,14 @@ function Footer() {
     return (
         <div className="footer" style={{ backgroundColor: theme.secondary }}>
             <div className='socialmedia-icons'>
+                <a
+                    href="https://opensea.io/futuristic_ai"
+                    target='_blank'
+                    rel='noreferrer'
+                    className={classes.socialIcon}
+                >
+                    <img id='OpenSeaLogoFooter' src={OpenSeaLogo} alt='OpenSea' />
+                </a>
                 {socialsData.instagram && (
                     <a
                         href={socialsData.instagram}
@@ -82,16 +90,6 @@ function Footer() {
                         className={classes.socialIcon}
                     >
                         <FaTwitter aria-label='Twitter' />
-                    </a>
-                )}
-                {socialsData.github && (
-                    <a
-                        href={socialsData.github}
-                        target='_blank'
-                        rel='noreferrer'
-                        className={classes.socialIcon}
-                    >
-                        <FaGithub aria-label='GitHub' />
                     </a>
                 )}
             </div>

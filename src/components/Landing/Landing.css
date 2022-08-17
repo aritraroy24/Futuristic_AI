@@ -41,6 +41,15 @@
   align-items: center;
   justify-content: flex-start;
 }
+#OpenSeaLogo {
+  display: flex;
+  height: 33px;
+  margin: 0 16px;
+  transition: transform 0.5s;
+}
+#OpenSeaLogo:hover {
+  transform: scale(1.2);
+}
 
 .landing--social {
   font-size: 35px;
@@ -144,7 +153,9 @@
     margin-top: 10%;
     margin-right: 6%;
   }
-
+  #OpenSeaLogo {
+    height: 30px;
+  }
   .lcr-buttonContainer {
     margin-top: 1rem;
     flex-direction: column;
@@ -215,6 +226,12 @@
   }
   .lcr-buttonContainer button {
     margin-top: -20%;
+  }
+}
+
+@media (max-width: 600px) {
+  #OpenSeaLogo {
+    display: none;
   }
 }
 
