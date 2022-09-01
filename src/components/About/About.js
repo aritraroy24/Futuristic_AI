@@ -21,7 +21,7 @@ function About() {
             <div className="about-body">
                 <div className="about-description">
                     <h2 style={{color: theme.primary}}>{aboutData.title}</h2>
-                    <p style={{color:theme.tertiary80}}>{aboutData.description1} Maintained by <a href="https://aritraroy.live/">Aritra Roy</a>.<br/><br/>{aboutData.description2}</p>
+                    <p style={{ color: theme.tertiary80 }}>{aboutData.description1} Maintained by <a href="https://aritraroy.live/">Aritra Roy</a>.<br /><br />{aboutData.description2}<a href="https://opensea.io/futuristic_ai">OpenSea</a>.<br /><br />ONE GIVEAWAY IS GOING ON. Join our <a href="https://discord.gg/JaABGdaCkP">Discord</a> community to participate.</p>
                 </div>
                 <div className="about-img">
                     <img 

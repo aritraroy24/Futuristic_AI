@@ -15,7 +15,7 @@ import AsianMonsteraQueen from '../assets/projects/Asian, queen of the monstera,
 
 export const projectsData = [
     {
-        id: 13,
+        id: 12,
         projectName: 'AsianMonsteraQueen',
         projectDesc: 'Asian queen of monstera (a genus of 49 species of flowering plants in the arum family) dressed in leaves with bindi',
         tags: ['Asian', 'Queen', 'Monstera'],
@@ -23,45 +23,35 @@ export const projectsData = [
         image: AsianMonsteraQueen,
     },
     {
-        id: 12,
+        id: 11,
         projectName: 'SailToInfinite',
         projectDesc: 'A real photographic landscape painting with a sailing boat to infinity',
         tags: ['Sail', 'Sea', 'Boat', 'Infinity'],
-        demo: 'https://cutt.ly/8Xk7chK',
+        demo: 'https://cutt.ly/1XmcYDq',
         image: SailToInfinite,
     },
     {
-        id: 11,
+        id: 10,
         projectName: 'NordicSummer',
         projectDesc: 'Aerial view of Nordic fjord in summer morning with cinematic Light',
         tags: ['Nordic', 'Summer', 'Sunrise'],
-        demo: 'https://cutt.ly/mXk8Yfc',
+        demo: 'https://cutt.ly/1XmzTwx',
         image: NordicSummer,
     },
     {
-        id: 10,
+        id: 9,
         projectName: 'AustralianCattle',
         projectDesc: 'Black and white Australian cattle dog in pink heeler background',
         tags: ['Dog', 'Pet', 'Australian Cattle'],
-        demo: 'https://cutt.ly/rXlqaas',
+        demo: 'https://cutt.ly/mXmkN0K',
         image: AustralianCattle,
-    },
-    {
-        id: 9,
-        projectName: '15th Aug, 2022',
-        projectDesc: '75 years celebration of Indian Independence Day (#AzadiKaAmritMahotsav) with tri-colourd smoke from airplane',
-        tags: ['India', 'Celebration', 'Independence Day'],
-        demo: 'https://cutt.ly/zXuWSWX',
-        demo: 'https://cutt.ly/sXk4fhb',
-        image: IndependenceDay,
     },
     {
         id: 8,
         projectName: 'MilkyWayBottle',
         projectDesc: 'Milky Way galaxy in a glass bottle with octane render',
         tags: ['MilkyWay', 'Space', 'Bottle'],
-        demo: 'https://cutt.ly/iXyGbzV',
-        demo: 'https://cutt.ly/XXk0JTE',
+        demo: 'https://cutt.ly/JXmsrID',
         image: MilkyWayBottle,
     },
     {
@@ -69,8 +59,7 @@ export const projectsData = [
         projectName: 'RedBottleCity',
         projectDesc: 'Red-orange cyberpunk themed abandoned City inside a glass bottle',
         tags: ['Abandoned', 'City', 'Bottle', 'Cyberpunk'],
-        demo: 'https://cutt.ly/fXyWULA',
-        demo: 'https://cutt.ly/PXkNAVn',
+        demo: 'https://cutt.ly/KXmpokW',
         image: RedBottleCity
     },
     {
@@ -78,8 +67,7 @@ export const projectsData = [
         projectName: 'GreenCity',
         projectDesc: 'Greenish-blue cyberpunk themed destroying city made of space stations',
         tags: ['Destroy', 'City', 'Cyberpunk'],
-        demo: 'https://cutt.ly/xXyrzfe',
-        demo: 'https://cutt.ly/EXk1FNn',
+        demo: 'https://cutt.ly/yXnARke',
         image: GreenCity
     },
     {
@@ -87,8 +75,7 @@ export const projectsData = [
         projectName: 'SpaceHub',
         projectDesc: 'Ultra-detailed dark 8k space background with planet and nebula',
         tags: ['Space', 'Planet', 'Nebula'],
-        demo: 'https://cutt.ly/qZ65u3D',
-        demo: 'https://cutt.ly/pXk9RLy',
+        demo: 'https://cutt.ly/qXnObOU',
         image: SpaceHub
     },
     {
@@ -96,8 +83,7 @@ export const projectsData = [
         projectName: 'CityRush',
         projectDesc: 'Detailed earth planet ultra-realistic landscape with skyscrapers',
         tags: ['Planet', 'Landscape', 'Skyscrapers'],
-        demo: 'https://cutt.ly/iXeHcAM',
-        demo: 'https://cutt.ly/CXk3Yab',
+        demo: 'https://cutt.ly/FXnIuG6',
         image: CityRush
     },
     {
@@ -105,7 +91,6 @@ export const projectsData = [
         projectName: 'WhoAmI',
         projectDesc: 'Girl\'s front face abstract portrait image with light yellow background',
         tags: ['Portrait', 'Girl'],
-        demo: 'https://cutt.ly/dXqpWqH',
         demo: 'https://cutt.ly/GXkHhto',
         image: WhoAmI
     },
@@ -114,8 +99,7 @@ export const projectsData = [
         projectName: 'CosmicPrincess',
         projectDesc: 'Realistic blonde princess in a cosmic dress with full-body tattoos, diamond necklace and earrings',
         tags: ['Blonde', 'Princess', 'Tattoos'],
-        demo: 'https://cutt.ly/rZ64SBq',
-        demo: 'https://cutt.ly/7XkZ3W9',
+        demo: 'https://cutt.ly/wXnUn81',
         image: CosmicPrincess
     },
     {
@@ -123,8 +107,7 @@ export const projectsData = [
         projectName: 'DarkMagicGirl',
         projectDesc: 'Mystical full body beautiful dark magician girl with ultra-details with nebula and space background',
         tags: ['Magician', 'Girl', 'Beautiful'],
-        demo: 'https://cutt.ly/HZ64MGv',
-        demo: 'https://cutt.ly/0XkKFQv',
+        demo: 'https://cutt.ly/9XnYPW8',
         image: DarkMagicGirl
     }
 ] 

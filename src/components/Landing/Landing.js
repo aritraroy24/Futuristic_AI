@@ -14,6 +14,8 @@ import {
     FaGithub,
     FaFacebook,
     FaInstagram,
+    FaDiscord,
+    // FaTelegram
 } from 'react-icons/fa';
 
 function Landing() {
@@ -73,6 +75,19 @@ function Landing() {
                 >
                     <div className='lcl--content'>
                         <a href="https://opensea.io/futuristic_ai" target="_blank" rel="noreferrer noopener"><img id="OpenSeaLogo" src={OpenSeaLogo}></img></a>
+                        {socialsData.discord && (
+                            <a
+                                href={socialsData.discord}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaDiscord
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Discord'
+                                />
+                            </a>
+                        )}
                         {socialsData.instagram && (
                             <a
                                 href={socialsData.instagram}
@@ -86,6 +101,19 @@ function Landing() {
                                 />
                             </a>
                         )}
+                        {/* {socialsData.telegram && (
+                            <a
+                                href={socialsData.telegram}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaTelegram
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Telegram'
+                                />
+                            </a>
+                        )} */}
                         {socialsData.facebook && (
                             <a
                                 href={socialsData.facebook}

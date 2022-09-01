@@ -8,6 +8,8 @@ import {
     FaGithub,
     FaInstagram,
     FaFacebook,
+    FaDiscord,
+    // FaTelegram,
     FaEye
 } from 'react-icons/fa';
 import { socialsData } from '../../data/socialsData';
@@ -62,6 +64,16 @@ function Footer() {
                 >
                     <img id='OpenSeaLogoFooter' src={OpenSeaLogo} alt='OpenSea' />
                 </a>
+                {socialsData.discord && (
+                    <a
+                        href={socialsData.discord}
+                        target='_blank'
+                        rel='noreferrer'
+                        className={classes.socialIcon}
+                    >
+                        <FaDiscord aria-label='Discord' />
+                    </a>
+                )}
                 {socialsData.instagram && (
                     <a
                         href={socialsData.instagram}
@@ -72,6 +84,16 @@ function Footer() {
                         <FaInstagram aria-label='Instagram' />
                     </a>
                 )}
+                {/* {socialsData.telegram && (
+                    <a
+                        href={socialsData.telegram}
+                        target='_blank'
+                        rel='noreferrer'
+                        className={classes.socialIcon}
+                    >
+                        <FaTelegram aria-label='Telegram' />
+                    </a>
+                )} */}
                 {socialsData.facebook && (
                     <a
                         href={socialsData.facebook}
